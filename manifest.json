@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "T-Rex Game",
+    "version": "1.0",
+    "description": "A simple T-Rex running game",
+    "action": {
+        "default_title": "T-Rex Game"
+    },
+    "permissions": [],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "popup.html"
+    }
+}
